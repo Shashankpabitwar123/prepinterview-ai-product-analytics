@@ -1,0 +1,14 @@
+# Reproducible source data: regenerate locally with scripts/generate_synthetic_data.py.
+# Only compact, public-safe Tableau aggregates are tracked in Git.
+data/raw_synthetic/
+data/prepinterview_synthetic_analytics.db
+
+# Local Python and operating-system artifacts
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+
+# Tableau local recovery files
+*.twb~
+*.tmp

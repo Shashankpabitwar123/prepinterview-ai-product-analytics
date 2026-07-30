@@ -1,0 +1,81 @@
+target_role,acquisition_channel,exam_difficulty,learners_with_exam_attempts,learners_with_multiple_attempts,average_first_exam_score,average_latest_exam_score,average_score_improvement,mock_interviews_started,mock_interviews_completed,mock_completion_rate,average_mock_score
+Data Analyst,Company career site,All,0,0,0.0,0.0,0.0,41,31,0.7561,64.34
+Data Analyst,Company career site,Easy,13,9,54.94,68.87,13.93,0,0,0,0.0
+Data Analyst,Company career site,Hard,24,17,56.15,61.8,5.65,0,0,0,0.0
+Data Analyst,Company career site,Medium,46,31,57.25,64.84,7.6,0,0,0,0.0
+Data Analyst,Handshake extension,All,0,0,0.0,0.0,0.0,105,85,0.8095,61.93
+Data Analyst,Handshake extension,Easy,33,26,60.05,67.23,7.18,0,0,0,0.0
+Data Analyst,Handshake extension,Hard,40,29,55.67,60.39,4.72,0,0,0,0.0
+Data Analyst,Handshake extension,Medium,84,63,60.08,64.11,4.04,0,0,0,0.0
+Data Analyst,LinkedIn extension,All,0,0,0.0,0.0,0.0,100,82,0.82,63.25
+Data Analyst,LinkedIn extension,Easy,36,29,62.47,71.39,8.93,0,0,0,0.0
+Data Analyst,LinkedIn extension,Hard,41,31,52.57,57.4,4.83,0,0,0,0.0
+Data Analyst,LinkedIn extension,Medium,88,71,58.38,64.54,6.16,0,0,0,0.0
+Data Analyst,Manual paste,All,0,0,0.0,0.0,0.0,27,21,0.7778,63.44
+Data Analyst,Manual paste,Easy,17,11,60.75,68.29,7.54,0,0,0,0.0
+Data Analyst,Manual paste,Hard,21,14,55.68,56.18,0.5,0,0,0,0.0
+Data Analyst,Manual paste,Medium,42,27,60.59,62.75,2.16,0,0,0,0.0
+Finance Analyst,Company career site,All,0,0,0.0,0.0,0.0,26,22,0.8462,65.63
+Finance Analyst,Company career site,Easy,18,15,60.77,71.38,10.62,0,0,0,0.0
+Finance Analyst,Company career site,Hard,17,13,53.93,61.34,7.41,0,0,0,0.0
+Finance Analyst,Company career site,Medium,42,29,57.29,62.78,5.49,0,0,0,0.0
+Finance Analyst,Handshake extension,All,0,0,0.0,0.0,0.0,89,66,0.7416,64.19
+Finance Analyst,Handshake extension,Easy,32,23,60.92,69.97,9.05,0,0,0,0.0
+Finance Analyst,Handshake extension,Hard,37,32,55.51,59.16,3.65,0,0,0,0.0
+Finance Analyst,Handshake extension,Medium,90,67,57.76,66.14,8.37,0,0,0,0.0
+Finance Analyst,LinkedIn extension,All,0,0,0.0,0.0,0.0,108,85,0.787,62.53
+Finance Analyst,LinkedIn extension,Easy,30,22,62.84,72.6,9.76,0,0,0,0.0
+Finance Analyst,LinkedIn extension,Hard,52,40,54.65,53.78,-0.87,0,0,0,0.0
+Finance Analyst,LinkedIn extension,Medium,101,80,59.93,64.27,4.34,0,0,0,0.0
+Finance Analyst,Manual paste,All,0,0,0.0,0.0,0.0,39,30,0.7692,59.05
+Finance Analyst,Manual paste,Easy,12,12,59.18,73.52,14.34,0,0,0,0.0
+Finance Analyst,Manual paste,Hard,30,21,55.75,57.06,1.32,0,0,0,0.0
+Finance Analyst,Manual paste,Medium,53,36,57.86,62.32,4.47,0,0,0,0.0
+Product Manager,Company career site,All,0,0,0.0,0.0,0.0,35,27,0.7714,62.28
+Product Manager,Company career site,Easy,18,15,59.13,69.17,10.04,0,0,0,0.0
+Product Manager,Company career site,Hard,22,18,51.25,57.11,5.86,0,0,0,0.0
+Product Manager,Company career site,Medium,39,32,56.03,65.99,9.96,0,0,0,0.0
+Product Manager,Handshake extension,All,0,0,0.0,0.0,0.0,87,70,0.8046,62.71
+Product Manager,Handshake extension,Easy,29,24,64.43,73.17,8.74,0,0,0,0.0
+Product Manager,Handshake extension,Hard,42,30,54.38,58.89,4.51,0,0,0,0.0
+Product Manager,Handshake extension,Medium,87,60,58.17,63.8,5.62,0,0,0,0.0
+Product Manager,LinkedIn extension,All,0,0,0.0,0.0,0.0,87,63,0.7241,63.23
+Product Manager,LinkedIn extension,Easy,28,20,57.92,64.75,6.83,0,0,0,0.0
+Product Manager,LinkedIn extension,Hard,46,38,55.66,57.76,2.1,0,0,0,0.0
+Product Manager,LinkedIn extension,Medium,101,81,57.07,62.62,5.55,0,0,0,0.0
+Product Manager,Manual paste,All,0,0,0.0,0.0,0.0,26,21,0.8077,60.09
+Product Manager,Manual paste,Easy,10,6,60.42,75.62,15.2,0,0,0,0.0
+Product Manager,Manual paste,Hard,19,17,52.72,58.16,5.44,0,0,0,0.0
+Product Manager,Manual paste,Medium,39,22,59.83,66.08,6.25,0,0,0,0.0
+Software Engineer,Company career site,All,0,0,0.0,0.0,0.0,36,31,0.8611,66.14
+Software Engineer,Company career site,Easy,14,12,60.62,71.69,11.06,0,0,0,0.0
+Software Engineer,Company career site,Hard,16,11,58.15,66.4,8.25,0,0,0,0.0
+Software Engineer,Company career site,Medium,44,29,58.53,64.87,6.34,0,0,0,0.0
+Software Engineer,Handshake extension,All,0,0,0.0,0.0,0.0,95,73,0.7684,61.21
+Software Engineer,Handshake extension,Easy,28,23,55.1,68.34,13.25,0,0,0,0.0
+Software Engineer,Handshake extension,Hard,45,32,55.69,58.62,2.93,0,0,0,0.0
+Software Engineer,Handshake extension,Medium,94,73,57.8,64.84,7.04,0,0,0,0.0
+Software Engineer,LinkedIn extension,All,0,0,0.0,0.0,0.0,91,71,0.7802,62.84
+Software Engineer,LinkedIn extension,Easy,36,31,61.23,72.1,10.87,0,0,0,0.0
+Software Engineer,LinkedIn extension,Hard,42,32,54.46,58.0,3.53,0,0,0,0.0
+Software Engineer,LinkedIn extension,Medium,99,82,58.03,67.51,9.48,0,0,0,0.0
+Software Engineer,Manual paste,All,0,0,0.0,0.0,0.0,41,35,0.8537,62.95
+Software Engineer,Manual paste,Easy,19,13,61.2,72.21,11.01,0,0,0,0.0
+Software Engineer,Manual paste,Hard,25,19,53.47,56.79,3.32,0,0,0,0.0
+Software Engineer,Manual paste,Medium,59,46,56.52,66.42,9.9,0,0,0,0.0
+UX Designer,Company career site,All,0,0,0.0,0.0,0.0,36,30,0.8333,65.25
+UX Designer,Company career site,Easy,18,13,58.93,68.01,9.08,0,0,0,0.0
+UX Designer,Company career site,Hard,19,13,54.99,64.55,9.56,0,0,0,0.0
+UX Designer,Company career site,Medium,39,29,59.29,63.02,3.73,0,0,0,0.0
+UX Designer,Handshake extension,All,0,0,0.0,0.0,0.0,76,65,0.8553,62.55
+UX Designer,Handshake extension,Easy,20,17,60.08,70.03,9.96,0,0,0,0.0
+UX Designer,Handshake extension,Hard,39,27,55.17,60.63,5.46,0,0,0,0.0
+UX Designer,Handshake extension,Medium,92,69,58.55,63.79,5.24,0,0,0,0.0
+UX Designer,LinkedIn extension,All,0,0,0.0,0.0,0.0,100,76,0.76,62.82
+UX Designer,LinkedIn extension,Easy,40,33,61.6,71.24,9.64,0,0,0,0.0
+UX Designer,LinkedIn extension,Hard,53,43,57.06,58.82,1.77,0,0,0,0.0
+UX Designer,LinkedIn extension,Medium,109,79,58.14,63.52,5.38,0,0,0,0.0
+UX Designer,Manual paste,All,0,0,0.0,0.0,0.0,40,34,0.85,65.83
+UX Designer,Manual paste,Easy,17,12,61.26,65.07,3.81,0,0,0,0.0
+UX Designer,Manual paste,Hard,21,18,53.53,58.56,5.03,0,0,0,0.0
+UX Designer,Manual paste,Medium,59,44,57.8,67.03,9.23,0,0,0,0.0

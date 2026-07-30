@@ -1,0 +1,127 @@
+{
+  "checks": [
+    {
+      "check": "Required raw tables exist",
+      "passed": true,
+      "evidence": "Found: ai_generations, exam_attempts, jobs, mock_interviews, prep_plans, prep_tasks, product_events, users"
+    },
+    {
+      "check": "users primary key uniqueness",
+      "passed": true,
+      "evidence": "8,000 unique IDs across 8,000 rows"
+    },
+    {
+      "check": "jobs primary key uniqueness",
+      "passed": true,
+      "evidence": "6,929 unique IDs across 6,929 rows"
+    },
+    {
+      "check": "prep_plans primary key uniqueness",
+      "passed": true,
+      "evidence": "4,491 unique IDs across 4,491 rows"
+    },
+    {
+      "check": "prep_tasks primary key uniqueness",
+      "passed": true,
+      "evidence": "51,788 unique IDs across 51,788 rows"
+    },
+    {
+      "check": "exam_attempts primary key uniqueness",
+      "passed": true,
+      "evidence": "7,485 unique IDs across 7,485 rows"
+    },
+    {
+      "check": "mock_interviews primary key uniqueness",
+      "passed": true,
+      "evidence": "1,285 unique IDs across 1,285 rows"
+    },
+    {
+      "check": "ai_generations primary key uniqueness",
+      "passed": true,
+      "evidence": "57,195 unique IDs across 57,195 rows"
+    },
+    {
+      "check": "product_events primary key uniqueness",
+      "passed": true,
+      "evidence": "125,044 unique IDs across 125,044 rows"
+    },
+    {
+      "check": "Job-to-user referential integrity",
+      "passed": true,
+      "evidence": "0 orphan jobs"
+    },
+    {
+      "check": "Plan-to-job/user referential integrity",
+      "passed": true,
+      "evidence": "0 orphan plans"
+    },
+    {
+      "check": "Task-to-plan/user referential integrity",
+      "passed": true,
+      "evidence": "0 orphan tasks"
+    },
+    {
+      "check": "Exam-attempt referential integrity",
+      "passed": true,
+      "evidence": "0 orphan attempts"
+    },
+    {
+      "check": "Mock-interview referential integrity",
+      "passed": true,
+      "evidence": "0 orphan mocks"
+    },
+    {
+      "check": "Exam score range",
+      "passed": true,
+      "evidence": "0 out-of-range scores"
+    },
+    {
+      "check": "Completed mock scores present",
+      "passed": true,
+      "evidence": "0 completed mocks missing scores"
+    },
+    {
+      "check": "Synthetic environment marker",
+      "passed": true,
+      "evidence": "0 events without synthetic_demo marker"
+    },
+    {
+      "check": "No prohibited public-data columns",
+      "passed": true,
+      "evidence": "Present prohibited columns: none"
+    },
+    {
+      "check": "Funnel is non-increasing by segment",
+      "passed": true,
+      "evidence": "0 invalid funnel segments"
+    },
+    {
+      "check": "Retention rate bounds",
+      "passed": true,
+      "evidence": "0 invalid retention rows"
+    },
+    {
+      "check": "Retention cohort week 0 baseline",
+      "passed": true,
+      "evidence": "0 invalid week-0 rows"
+    },
+    {
+      "check": "AI reliability totals reconcile",
+      "passed": true,
+      "evidence": "0 non-reconciling rows"
+    },
+    {
+      "check": "SQLite user count matches CSV",
+      "passed": true,
+      "evidence": "SQLite=8,000; CSV=8,000"
+    },
+    {
+      "check": "SQLite event view reconciles",
+      "passed": true,
+      "evidence": "View=125,044; source=125,044"
+    }
+  ],
+  "passed": 24,
+  "total": 24,
+  "all_passed": true
+}

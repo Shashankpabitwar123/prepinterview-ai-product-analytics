@@ -1,0 +1,28 @@
+{
+  "dataset_label": "Synthetic demonstration data modeled from PrepInterview AI workflows. Not production usage.",
+  "random_seed": 20260728,
+  "simulation_window": {
+    "start": "2026-01-01",
+    "end": "2026-06-30"
+  },
+  "synthetic_users": 8000,
+  "row_counts": {
+    "users": 8000,
+    "jobs": 6929,
+    "prep_plans": 4491,
+    "prep_tasks": 51788,
+    "exam_attempts": 7485,
+    "mock_interviews": 1285,
+    "ai_generations": 57195,
+    "product_events": 125044
+  },
+  "tableau_extract_counts": {
+    "tableau_daily_kpis": 3635,
+    "tableau_activation_funnel": 3633,
+    "tableau_retention_cohorts": 338,
+    "tableau_feature_adoption": 219,
+    "tableau_learning_outcomes": 80,
+    "tableau_ai_reliability": 4177
+  },
+  "privacy": "Contains no real users, names, emails, job descriptions, answer text, prompts, or API secrets."
+}
