@@ -22,11 +22,11 @@ Recommended résumé wording:
 
 ## Folder guide
 
-- `data/raw_synthetic/` — linked entity-level synthetic tables and event records
+- `data/raw_synthetic/` — locally generated linked entity-level synthetic tables and event records; excluded from Git to keep the public repository compact
 - `data/tableau/` — public-safe aggregate CSVs to connect in Tableau Public
-- `data/prepinterview_synthetic_analytics.db` — SQLite analysis database with source tables and views
+- `data/prepinterview_synthetic_analytics.db` — locally generated SQLite analysis database with source tables and views; excluded from Git
 - `data/data_profile.json` — dataset lineage and row counts
-- `docs/` — metric definitions, event taxonomy, data-quality report, public disclosure, and Tableau build guide
+- `docs/` — metric definitions, event taxonomy, data-quality report, findings, public disclosure, and Tableau build guide
 - `sql/` — inspectable analytical SQL
 - `scripts/` — reproducible generator and validator
 
@@ -42,3 +42,5 @@ The generator uses a fixed seed, so each rebuild produces the same dataset and r
 ## Tableau entry point
 
 Open Tableau Public and connect to the six CSVs in `data/tableau/`. Follow [the Tableau build guide](docs/tableau_build_guide.md). Every published dashboard must include the required synthetic-data disclosure from `docs/TABLEAU_PUBLIC_DISCLOSURE.txt`.
+
+Before publishing, use the [dashboard QA checklist](docs/dashboard_qa_checklist.md). The [dashboard findings](docs/dashboard_findings.md) and [portfolio summary](docs/portfolio_summary.md) provide the source-backed narrative and résumé-ready wording.
