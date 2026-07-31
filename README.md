@@ -74,9 +74,3 @@ python3 scripts/validate_dataset.py
 ```
 
 The generator uses a fixed seed, so a rebuild produces the same demonstration dataset. The validation suite checks key uniqueness, referential integrity, score ranges, funnel logic, retention bounds, AI-reliability reconciliation, and public-data safety.
-
-## 8. Data and ethics boundary
-
-This analysis is based on deterministic synthetic records generated from the real PrepInterview AI workflow. It contains no real users, names, email addresses, job descriptions, prompts, answer text, or API secrets.
-
-Use this project on a résumé as a **product analytics prototype**. Do not claim that the dashboard measures actual PrepInterview AI user behavior, retention, revenue, experimentation results, or business impact. See the full [synthetic-data methodology](docs/synthetic_data_methodology.md) and [public disclosure](docs/TABLEAU_PUBLIC_DISCLOSURE.txt).
