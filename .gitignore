@@ -11,4 +11,8 @@ __pycache__/
 
 # Tableau local recovery files
 *.twb~
+*.twbr
 *.tmp
+
+# Superseded local workbook retained only as a personal backup.
+tableau/PrepInterview_AI_Product_Analytics_Prototype.twbx

@@ -1,15 +1,16 @@
 # Tableau workbook
 
-This folder will contain the packaged Tableau workbook:
+The final packaged workbook is:
 
 ```text
-PrepInterview_AI_Product_Analytics_Prototype.twbx
+PrepInterview_AI_Product_Analytics_Final.twbx
 ```
 
-Build it from the six compact, public-safe CSV extracts in `../data/tableau/`.
-Use `../docs/tableau_build_guide.md` for the four dashboard layout and
-`../docs/dashboard_qa_checklist.md` before publishing.
+It contains four dashboards plus a four-page Story navigator and embeds the
+six compact, public-safe CSV extracts in `../data/tableau/`.
 
-Do not connect Tableau Public to the raw entity-level synthetic files. Include
-the disclosure from `../docs/TABLEAU_PUBLIC_DISCLOSURE.txt` in every published
-dashboard.
+**Live Story:** [PrepInterview AI — Synthetic Product Analytics](https://public.tableau.com/app/profile/shashank.pabitwar/viz/PrepInterview_AI_Product_Analytics_Final/StoryPrepInterviewAIProductAnalytics?publish=yes)
+
+Do not connect Tableau Public to the raw entity-level synthetic files. Every
+published dashboard carries the disclosure in
+`../docs/TABLEAU_PUBLIC_DISCLOSURE.txt`.

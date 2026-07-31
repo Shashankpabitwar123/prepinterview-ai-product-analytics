@@ -41,6 +41,17 @@ The generator uses a fixed seed, so each rebuild produces the same dataset and r
 
 ## Tableau entry point
 
-Open Tableau Public and connect to the six CSVs in `data/tableau/`. Follow [the Tableau build guide](docs/tableau_build_guide.md). Every published dashboard must include the required synthetic-data disclosure from `docs/TABLEAU_PUBLIC_DISCLOSURE.txt`.
+**Live Tableau Story:** [PrepInterview AI — Synthetic Product Analytics](https://public.tableau.com/app/profile/shashank.pabitwar/viz/PrepInterview_AI_Product_Analytics_Final/StoryPrepInterviewAIProductAnalytics?publish=yes)
+
+The public Story contains four navigable dashboards:
+
+1. Product Overview
+2. Activation Funnel
+3. Retention & Feature Adoption
+4. Learning Outcomes & AI Reliability
+
+The packaged, reproducible workbook is [tableau/PrepInterview_AI_Product_Analytics_Final.twbx](tableau/PrepInterview_AI_Product_Analytics_Final.twbx). It embeds the six public-safe aggregate extracts from `data/tableau/`.
+
+Every published dashboard includes the required synthetic-data disclosure from `docs/TABLEAU_PUBLIC_DISCLOSURE.txt`.
 
 Before publishing, use the [dashboard QA checklist](docs/dashboard_qa_checklist.md). The [dashboard findings](docs/dashboard_findings.md) and [portfolio summary](docs/portfolio_summary.md) provide the source-backed narrative and résumé-ready wording.
